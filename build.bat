@@ -1,0 +1,1 @@
+c:\python27\python setup.py build_ext --inplace
