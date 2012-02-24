@@ -3,20 +3,6 @@
 """
 Build an executable for the PCM streaming test app.
 """
-#
-#
-# Copyright (c) 2011 Semiconductor Components Industries, LLC
-# (d/b/a ON Semiconductor). All Rights Reserved.
-#
-# This code is the property of ON Semiconductor and may not be redistributed
-# in any form without prior written permission from ON Semiconductor. The
-# terms of use and warranty for this code are covered by contractual
-# agreements between ON Semiconductor and the licensee.
-# ----------------------------------------------------------------------------
-# $Revision: 1.4 $
-# $Date: 2012/01/23 22:14:24 $
-# ----------------------------------------------------------------------------
-#
 
 import sys
 import os

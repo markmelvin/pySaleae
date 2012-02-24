@@ -362,7 +362,8 @@ cdef class PCMAnalyzer(Analyzer):
         return 0
 
     cdef int complete_current_data_word(self,) except -1:
-        self.decoded_data[self.current_channel, self.last_decoded_data_array_size] = self.current_decoded_value
+        # The current sample has been pre-left-shifted by 1.  Undo that when we store it.
+        self.decoded_data[self.current_channel, self.last_decoded_data_array_size] = self.current_decoded_value >> 1
         self.current_decoded_value = 0
         return 0
 

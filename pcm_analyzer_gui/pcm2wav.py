@@ -3,18 +3,8 @@
 """
 A Qt-based UI for the Saleae I2S/PCM recording utility.
 """
-# Copyright (c) 2011 Semiconductor Components Industries, LLC
-# (d/b/a ON Semiconductor). All Rights Reserved.
-#
-# This code is the property of ON Semiconductor and may not be redistributed
-# in any form without prior written permission from ON Semiconductor. The
-# terms of use and warranty for this code are covered by contractual
-# agreements between ON Semiconductor and the licensee.
-# ----------------------------------------------------------------------------
-# $Revision: 1.9 $
-# $Date: 2012/01/26 20:23:13 $
-# ----------------------------------------------------------------------------
-#
+
+
 import threading
 import sys
 import os
