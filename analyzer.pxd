@@ -10,5 +10,5 @@ cdef class Analyzer:
     cdef add_u16_data_block(self, np.ndarray[np.npy_uint16, ndim=1] data_block)
     cdef add_u8_data_block(self, np.ndarray[np.npy_uint8, ndim=1] data_block)
 
-    cdef int analyze_u8_data_block(self, np.ndarray[np.npy_uint8, ndim=1] data) except -1
-    cdef int analyze_u16_data_block(self, np.ndarray[np.npy_uint16, ndim=1] data) except -1
+    cpdef int analyze_u8_data_block(self, np.ndarray[np.npy_uint8, ndim=1] data) except -1
+    cpdef int analyze_u16_data_block(self, np.ndarray[np.npy_uint16, ndim=1] data) except -1
