@@ -1,0 +1,5 @@
+build/
+SaleaeDevice.cpp
+SaleaeDevice.pyd
+analyzer.cpp
+analyzer.pyd
