@@ -60,7 +60,7 @@ events. Once the extension modules are built, just type:
 
   python device_manager_example.py
 
-If you plug an unplug a Logic or Logic16, the events should be displayed
+If you plug and unplug a Logic or Logic16, the events should be displayed
 in the console.
 
 Analyzers
@@ -71,11 +71,11 @@ the Saleae Logic/Logic16 devices in Python.  Unfortunately, to do anything with
 the data coming in at the raw rate off the analyzer (many megabytes per second)
 the analyzer needs to be written in Cython.  Python is just too slow.  But it
 is actually pretty impressive what Cython can accomplish.  It allows you to write
-most of the code in a "Pythonic" way, while do the heavy number crunching in
+most of the code in a "Pythonic" way, while doing the heavy number crunching in
 C/C++ under the covers.  Unfortunately this means that you need to compile your
-analyzer into an extension module (.pyd file), but since you already have made it
+analyzer into an extension module (.pyd file), but since you have already made it
 this far, the hard work is done.  Also, Cython is a great way for making Python
-extension modules (.pyd files) that are fully accessible from your Python modules
+extension modules (.pyd files) that are fully accessible from your Python code
 essentially for free.
 
 To this end, I have included a very simple analyzer that ...
