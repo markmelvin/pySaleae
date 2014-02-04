@@ -39,7 +39,7 @@ Here are the installation and build instructions:
   get the Logic/Logic16 driver
 - Get the Saleae Device SDK (I used version 1.1.14) and copy all three of
   SaleaeDevice.dll, SaleaeDevice.lib and SaleaeDeviceApi.h over from the
-  device API into the build folder. They have been checked in for reference.
+  device API into the dependencies folder. They have been checked in for reference.
 
 You'll need Microsoft Visual Studio Express to build the Cython modules. I
 tried to make it work with Mingw, but I could not get the Saleae Device SDK
