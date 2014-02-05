@@ -1,3 +1,3 @@
 !! WARNING !!
 
-The code in this folder is in a massive state of refactor and is unusable.
+The PCM analyzer is currently broken and unusable, but the square wave analyzer works.

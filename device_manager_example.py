@@ -18,9 +18,6 @@ from SaleaeDevice import PyDevicesManager, EVENT_ID_ALL_EVENTS, EVENT_ID_ONCONNE
                          EVENT_ID_ONANALYZERDATA
 
 class SaleaeEventListener(object):
-    def __init__(self,):
-        self.analyzer = None
-
     def on_event(self, event, device_id):
         """Called when an event is broadcast from the Saleae API wrapper."""
         print("Device: %d, Event ID: %d, Event Name: %s, Data: %s" % (device_id, event.id, event.name, event.data))
