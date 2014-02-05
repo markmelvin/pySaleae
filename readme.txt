@@ -78,9 +78,10 @@ this far, the hard work is done.  Also, Cython is a great way for making Python
 extension modules (.pyd files) that are fully accessible from your Python code
 essentially for free.
 
-To this end, I have included a very simple analyzer that ...
+To this end, I have included a very simple analyzer that looks at a single
+channel and calculates the frequency, period and duty cycle of whatever
+signal is on that channel (assuming a square wave).
 
-  Coming soon....
 
 *** NOTE: The PCM/I2S analyzer needs to be ported over to the new codebase 
           and Python 3.3. It will not run at the moment, but could be used
