@@ -38,5 +38,5 @@ if __name__ == "__main__":
     PyDevicesManager.begin_connect()
 
     print("Listening for events. Press spacebar to exit.")
-    while not msvcrt.kbhit() and msvcrt.getch() != b' ':
+    while not msvcrt.kbhit() or msvcrt.getch() != b' ':
         time.sleep(0.01)
